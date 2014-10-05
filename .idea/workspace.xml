@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bf89780-898a-4cda-917a-8b265fb4f1c5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/University/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/University/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-    </list>
+    <list default="true" id="9bf89780-898a-4cda-917a-8b265fb4f1c5" name="Default" comment="" />
     <ignored path="wpgavern.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="9bf89780-898a-4cda-917a-8b265fb4f1c5" time="1412511565250" ignored="false" />
