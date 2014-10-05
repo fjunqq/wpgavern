@@ -1,0 +1,176 @@
+/**
+ *
+ * -------------------------------------------
+ * Override
+ * -------------------------------------------
+ *
+ **/
+
+/*
+ *
+ * 16. Override
+ *
+ *
+------------------------------------ */
+
+/* 16.1. Overrided elements
+==================================== */
+
+
+.cssLogo {
+	background: transparent url('../images/youthmba.png') no-repeat 0 0;
+	/* You can specify there logo size and background */
+	height: 75px;
+	width: 227px;
+}
+
+.svg a.cssLogo {
+	background-image:  url('../images/youthmba.svg');
+	height: 75px;
+	width: 274px;
+
+}
+
+.headerbottom ul{
+clear: both;
+width: 100%;
+font-size:15px;
+}
+
+.headerbottom ul li{
+border-top:0px;
+display: inline;
+list-style-type: none;
+width:20%;
+padding-right:70px;
+font-size:16px;
+}
+
+
+.headerbottom ul li a{
+color:#000;
+}
+
+.headerbottom ul li a:hover {
+color:#65c1cf;
+}
+
+.headerbottom ul li .lastitem{
+color:#65c1cf;
+}
+
+
+/* Testimonials */
+.gk-testimonials {
+	clear: both;
+	display: block;
+	margin: 0;
+	padding: 54px 0 0 0;
+	position: relative;
+	text-align: center;
+}
+.gk-testimonials:before {
+	color: #db4a37;
+	content: "\f10d";
+	font-family: FontAwesome;
+	font-size: 18px;
+	font-style: italic;
+	line-height: 0;
+	margin-left: -9px;
+	position: absolute;
+	left: 50%;
+	top: 15px;
+}
+.gk-testimonials p {
+	color: #888;
+	font-size: 17px;
+	font-style: italic;
+	line-height: 1.6;
+	margin: 25px 0!important;
+}
+
+.gk-testimonials  p:after {
+	content:"";
+	display:hidden;
+}
+
+.gk-author {
+	border-top: 1px solid #ddd;
+	display: inline-block;
+	font-style: normal;
+	font-weight: 500; 
+	height: auto;
+	padding: 25px 0;
+	text-align: left;
+}
+.gk-author > img {
+	float: left;
+	margin: 0 16px 0 0;
+	max-width: 40px;
+}
+.gk-author > span {
+	float: left;
+}
+.gk-author > span > strong {
+	color: #272727;
+	display: block;
+	float: left;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 1.0;
+	text-transform: uppercase;
+}
+.gk-author > span > a {
+	clear: both;
+	color: #b0b0b0;
+	float: left;
+	font-size: 12px;
+	line-height: 1.6;
+	text-transform: none;
+}
+.gk-author > span > a:active,
+.gk-author > span > a:focus,
+.gk-author > span > a:hover {
+	color: #db4a37;
+}	
+
+ients {
+	margin: 20px -2%!important;
+	overflow: hidden;
+}
+.gk-clients li {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	list-style-type: none;
+	margin: 0 2%;
+	padding: 12px 0!important;
+	position: relative;
+	top: -1px;
+	width: 21%;
+}
+.gk-clients li:before { display: none; }
+.gk-clients li.double { width: 46%; }
+.gk-clients li.double .box-title {
+	margin: 0;
+	position: relative;
+	top: -12px;
+}
+.gk-clients li a {
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+.gk-clients li a:active,
+.gk-clients li a:focus,
+.gk-clients li a:hover {
+	opacity: 0.65;
+}
+
+
+
+

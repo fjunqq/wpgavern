@@ -1,0 +1,56 @@
+/**
+ *
+ * -------------------------------------------
+ * Override
+ * -------------------------------------------
+ *
+ **/
+
+/*
+ *
+ * 16. Override
+ *
+ *
+------------------------------------ */
+
+/* 16.1. Overrided elements
+==================================== */
+
+
+.cssLogo {
+	background: transparent url('../images/youthmba.png') no-repeat 0 0;
+	/* You can specify there logo size and background */
+	height: 75px;
+	width: 227px;
+}
+
+.svg a.cssLogo {
+	background-image:  url('../images/youthmba.svg');
+	height: 75px;
+	width: 274px;
+
+}
+
+.headerbottom ul li{
+border-top:0px;
+display: inline;
+list-style-type: none;
+}
+
+
+
+.headerbottom > li {
+width:auto;
+}
+
+.headerbottom ul li a{
+color:#000;
+}
+
+.headerbottom ul li a:hover {
+color:#65c1cf;
+}
+
+@media all and (max-width: 480px){
+	.headerbottom li{float: none; width: 100%; }
+}
