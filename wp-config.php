@@ -18,13 +18,13 @@
 /** The name of the database for WordPress */
 //define('WP_CACHE', true); //Added by WP-Cache Manager
 //define( 'WPCACHEHOME', '/usr/share/nginx/html/mindmeters/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
-define('DB_NAME', 'youthmba_univ');
+define('DB_NAME', 'wpgavern');
 
 /** MySQL database username */
-define('DB_USER', 'ymba_admin');
+define('DB_USER', 'wptest');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'ymba1234');
+define('DB_PASSWORD', 'wptest');
 
 /** MySQL hostname */
 define('DB_HOST', '127.0.0.1');
