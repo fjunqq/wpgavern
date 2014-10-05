@@ -98,8 +98,8 @@ require_once(gavern_file('gavern/widgets.comments.php'));
 require_once(gavern_file('gavern/widgets.tweets.php'));
 require_once(gavern_file('gavern/widgets.login.php'));
 require_once(gavern_file('gavern/widgets.imageshow.php'));
-require_once(gavern_file('gavern/widgets.latestphotos.php'));
-require_once(gavern_file('gavern/widgets.buddypress.php'));
+//require_once(gavern_file('gavern/widgets.latestphotos.php'));
+//require_once(gavern_file('gavern/widgets.buddypress.php'));
 // Including file with template admin features
 require_once(gavern_file('gavern/helpers/helpers.features.php'));
 // Including file with template shortcodes
